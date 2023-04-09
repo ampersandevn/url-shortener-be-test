@@ -1,2 +1,13 @@
 server:
   port: 9000
+spring:
+  application:
+    name: url-shortener
+  mongodb:
+    embedded:
+      version: 4.0.21
+  data:
+    mongodb:
+      port=0
+  webflux:
+    base-path: /api
